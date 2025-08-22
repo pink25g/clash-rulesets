@@ -17,18 +17,21 @@ payload:
   - DOMAIN,audio-fa.scdn.co
   - DOMAIN,video-fa.scdn.co
   - DOMAIN,pickasso.spotifycdn.com
+  - DOMAIN,blend-playlist-covers.spotifycdn.com
+  - DOMAIN,shareables.scdn.co
 
-  # === Веб и редиректы ===
+  # === Веб и редиректы (обязательно для входа/поиска) ===
   - DOMAIN,open.spotify.com
   - DOMAIN,play.spotify.com
   - DOMAIN,links.tospotify.com
+  - DOMAIN,cdn.branch.io
 
-  # === Доп. сервисы (можно отключить, но иногда влияют) ===
-  # - DOMAIN,cdn.branch.io                # deeplink + авторизация
-  # - DOMAIN,graph.facebook.com           # авторизация через Facebook
-  # - DOMAIN,crashlyticsreports-pa.googleapis.com # отчёты об ошибках
-  # - DOMAIN,firebaselogging-pa.googleapis.com    # логирование событий
-  # - DOMAIN,census-app.scorecardresearch.com     # аналитика
-  # - DOMAIN,crashlytics.com              # аналитика/отчёты
-  # - DOMAIN,firebaseio.com               # пуши (мобильное приложение)
-  # - DOMAIN,storage.googleapis.com       # иногда хранение ресурсов
+  # === Доп. сервисы (иногда нужны для логина или поиска) ===
+  - DOMAIN,graph.facebook.com            # FB-аккаунты и связки
+  - DOMAIN,crashlyticsreports-pa.googleapis.com
+  - DOMAIN,firebaselogging-pa.googleapis.com
+  - DOMAIN,census-app.scorecardresearch.com
+  - DOMAIN,crashlytics.com
+  - DOMAIN,firebaseio.com
+  - DOMAIN,storage.googleapis.com
+

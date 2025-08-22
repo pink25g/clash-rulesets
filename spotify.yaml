@@ -1,12 +1,12 @@
 payload:
   # === Spotify API ===
   - DOMAIN,spclient.wg.spotify.com
+  - DOMAIN,gew1-spclient.spotify.com
+  - DOMAIN,gew1-dealer.g2.spotify.com
   - DOMAIN,apresolve.spotify.com
   - DOMAIN,clienttoken.spotify.com
   - DOMAIN,login5.spotify.com
   - DOMAIN,api.spotify.com
-  - DOMAIN,gew1-dealer.g2.spotify.com
-  - DOMAIN,gew1-spclient.spotify.com
 
   # === CDN (контент, картинки, обложки, canvas) ===
   - DOMAIN,i.scdn.co
@@ -20,18 +20,19 @@ payload:
   - DOMAIN,blend-playlist-covers.spotifycdn.com
   - DOMAIN,shareables.scdn.co
 
-  # === Веб и редиректы (обязательно для входа/поиска) ===
+  # === Веб и редиректы ===
   - DOMAIN,open.spotify.com
   - DOMAIN,play.spotify.com
   - DOMAIN,links.tospotify.com
   - DOMAIN,cdn.branch.io
 
-  # === Доп. сервисы (иногда нужны для логина или поиска) ===
-  - DOMAIN,graph.facebook.com            # FB-аккаунты и связки
-  - DOMAIN,crashlyticsreports-pa.googleapis.com
-  - DOMAIN,firebaselogging-pa.googleapis.com
+  # === Аналитика / краш-репорты / push ===
+  - DOMAIN,graph.facebook.com
   - DOMAIN,census-app.scorecardresearch.com
+  - DOMAIN,firebaselogging-pa.googleapis.com
+  - DOMAIN,crashlyticsreports-pa.googleapis.com
   - DOMAIN,crashlytics.com
   - DOMAIN,firebaseio.com
   - DOMAIN,storage.googleapis.com
+
 

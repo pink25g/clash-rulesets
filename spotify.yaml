@@ -19,7 +19,7 @@ payload:
   - DOMAIN,pickasso.spotifycdn.com
   - DOMAIN,blend-playlist-covers.spotifycdn.com
   - DOMAIN,shareables.scdn.co
-
+  - DOMAIN,i.scdn.co
   # === Веб и редиректы ===
   - DOMAIN,open.spotify.com
   - DOMAIN,play.spotify.com

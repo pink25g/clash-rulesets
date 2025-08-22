@@ -1,0 +1,34 @@
+payload:
+  # === Spotify API ===
+  - DOMAIN,spclient.wg.spotify.com
+  - DOMAIN,apresolve.spotify.com
+  - DOMAIN,clienttoken.spotify.com
+  - DOMAIN,login5.spotify.com
+  - DOMAIN,api.spotify.com
+  - DOMAIN,gew1-dealer.g2.spotify.com
+  - DOMAIN,gew1-spclient.spotify.com
+
+  # === CDN (контент, картинки, обложки, canvas) ===
+  - DOMAIN,i.scdn.co
+  - DOMAIN,canvaz.scdn.co
+  - DOMAIN,newjams-images.scdn.co
+  - DOMAIN,image-cdn-ak.spotifycdn.com
+  - DOMAIN,heads-fa-tls13.spotifycdn.com
+  - DOMAIN,audio-fa.scdn.co
+  - DOMAIN,video-fa.scdn.co
+  - DOMAIN,pickasso.spotifycdn.com
+
+  # === Веб и редиректы ===
+  - DOMAIN,open.spotify.com
+  - DOMAIN,play.spotify.com
+  - DOMAIN,links.tospotify.com
+
+  # === Доп. сервисы (можно отключить, но иногда влияют) ===
+  # - DOMAIN,cdn.branch.io                # deeplink + авторизация
+  # - DOMAIN,graph.facebook.com           # авторизация через Facebook
+  # - DOMAIN,crashlyticsreports-pa.googleapis.com # отчёты об ошибках
+  # - DOMAIN,firebaselogging-pa.googleapis.com    # логирование событий
+  # - DOMAIN,census-app.scorecardresearch.com     # аналитика
+  # - DOMAIN,crashlytics.com              # аналитика/отчёты
+  # - DOMAIN,firebaseio.com               # пуши (мобильное приложение)
+  # - DOMAIN,storage.googleapis.com       # иногда хранение ресурсов
